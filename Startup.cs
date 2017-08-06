@@ -61,6 +61,7 @@ namespace MvcMovie
             });
 
             DBinitialize.EnsureCreated(app.ApplicationServices);
+            SeedData.Initialize(app.ApplicationServices);
         }
     }
 }
